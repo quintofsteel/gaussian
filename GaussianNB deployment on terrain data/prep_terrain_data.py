@@ -39,5 +39,5 @@ def makeTerrainData(n_points=1000):
     test_data = {"fast":{"grade":grade_sig, "bumpiness":bumpy_sig}
             , "slow":{"grade":grade_bkg, "bumpiness":bumpy_bkg}}
 
-    return X_train, y_train, X_test, y_test
-#    return training_data, test_data
+    return X_train, y_train, X_test, y_test        # return training_data, test_data
+
